@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "The Enchanted Forest of Dreams",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 2,
+        "name": "Horror Book",
+        "title": "Haunting Shadows in the Night",
+        "price": 40,
+        "category": "Horror",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 3,
+        "name": "Food Book",
+        "title": "Delicious Recipes for Every Meal",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 4,
+        "name": "DSA Book",
+        "title": "Mastering Data Structures and Algorithms",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 5,
+        "name": "Science Book",
+        "title": "Exploring the Wonders of Science",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 6,
+        "name": "Comic Book",
+        "title": "Superhero Adventures: The New Era",
+        "price": 0,
+        "category": "Comics",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 7,
+        "name": "Music Book",
+        "title": "The History of Classical Music",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 8,
+        "name": "Sport Book",
+        "title": "The Ultimate Guide to Sports",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 9,
+        "name": "Comedy Book",
+        "title": "Laugh Out Loud: Comedy Classics",
+        "price": 20,
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 10,
+        "name": "Story Book",
+        "title": "The Magical Kingdom Adventures",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 11,
+        "name": "Football Book",
+        "title": "The Great Football Chronicles",
+        "price": 80,
+        "category": "Sports",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 16,
+        "name": "Science Fiction Book",
+        "title": "Galactic Odyssey: Beyond the Stars",
+        "price": 30,
+        "category": "Fiction",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 17,
+        "name": "Biography Book",
+        "title": "In the Footsteps of Giants",
+        "price": 22,
+        "category": "Biography",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 18,
+        "name": "Children's Book",
+        "title": "The Magic of Make-Believe",
+        "price": 8,
+        "category": "Children",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    },
+    {
+        "id": 19,
+        "name": "Mystery Book",
+        "title": "The Secret of the Lost City",
+        "price": 27,
+        "category": "Mystery",
+        "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?w=740&h=740"
+    }
+]
