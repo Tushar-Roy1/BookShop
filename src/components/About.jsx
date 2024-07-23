@@ -73,12 +73,12 @@ const About = () => {
       <footer className="mt-8 text-center">
         <p className={`${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>Stay connected with us on [Social Media Links] or contact us at [Contact Information] for any inquiries or feedback.</p>
         <p className={`mt-2 ${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>Thank you for visiting Book Haven. We’re excited to be part of your reading journey!</p>
-        <button
+        {/* <button
           onClick={toggleTheme}
           className="bg-gray-800 text-white font-bold py-2 px-4 rounded hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 mt-4"
         >
           Toggle Theme
-        </button>
+        </button> */}
       </footer>
     </div>
   );
