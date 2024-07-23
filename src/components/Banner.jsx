@@ -27,9 +27,9 @@ const Banner = () => {
         <button className="bg-pink-500 text-white px-3 py-2 rounded-md hover:bg-pink-800 duration-300 cursor-pointer ">Submit</button>
         </div>
         </div>
-        <div className='w-full md:w-1/2 md:flex justify-center  md:mr-8 order-1 mt-6'>
-  <div className="h-92 w-92 order-2 mb-14 ml-9 md:flex justify-center items-center  md:pr-5 rounded-md">
-    <img src={banner} alt='' className="h-full w-full object-fill rounded-md" />
+        <div className='w-full md:w-1/2 md:flex justify-center  md:mr-8 order-1 mt-6 '>
+  <div className="h-92 w-92 order-2 mb-14 ml-9 md:flex justify-center items-center pr-6 md:pr-5 ">
+    <img src={banner} alt='' className="h-full w-full object-cover  rounded-md"/>
   </div>
 </div>
 
