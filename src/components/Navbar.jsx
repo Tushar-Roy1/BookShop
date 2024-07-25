@@ -1,8 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom'
 import Login from './Login';
-
+import axios from 'axios';
+import Cards from './Cards';
 function Navbar() {
+  const [search,setSearch]=useState("");
+  const [bookdata,setBookData]=useState([])
+  const searchBook=(evt)=>{
+    if(evt.key==="Enter"){
+      axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}&key=AIzaSyAIQ1kBgChMgq8bq4XAbLmgSvmGE0cUEwE`)
+      .then(res=>setBookData(res.data.items))
+      .catch(err=>console.log(err))
+    }
+  }
   const [theme,setTheme] = useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light");
   const element = document.documentElement;
   useEffect(()=>{
@@ -79,8 +89,10 @@ function Navbar() {
     </ul>
     </div>
     <div className="hidden md:block">
-    <label className="input input-bordered flex items-center gap-2  dark:bg-slate-900 dark:text-white dark:border-white">
-  <input type="text" className="grow  dark:bg-slate-900 dark:text-white dark:border-white" placeholder="Search" />
+    {/* <label className="input input-bordered flex items-center gap-2  dark:bg-slate-900 dark:text-white dark:border-white">
+  <input type="text" className="grow  dark:bg-slate-900 dark:text-white dark:border-white" placeholder="Search" 
+  value={search} onChange={(e)=>setSearch(e.target.value)}
+  onKeyPress={searchBook}/>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -91,7 +103,7 @@ function Navbar() {
       d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
       clipRule="evenodd" />
   </svg>
-</label>
+</label> */}
     </div>
     <label className="swap swap-rotate">
   {/* this hidden checkbox controls the state */}
@@ -125,6 +137,7 @@ function Navbar() {
     >Login</a>
     <Login/>
   </div>
+ 
 </div>
 </div>
 </div>
